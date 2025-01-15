@@ -1,0 +1,76 @@
+{'cmdline': ['./run-sniper',
+             '-v',
+             '-n',
+             '2',
+             '-c',
+             'gainestown',
+             '--roi',
+             '-s',
+             'core_state_predictor',
+             '--power',
+             '-d',
+             '/mnt/c/Users/Bea/Desktop/proiectBea/workspace/simresults',
+             '--',
+             '/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/Splash-4/Splash-4/lu-contiguous_blocks/LU-CONT',
+             '-n32',
+             '-p2',
+             '-b8'],
+ 'git_revision': '9f3c72f513af841f86d5deb8e5f75b33e4a265fb',
+ 'host': 'DESKTOP-IBQJRU1',
+ 'pin_version': 'unknown',
+ 'rusage': (4.508171,
+            5.496264,
+            139988,
+            0,
+            0,
+            0,
+            47679,
+            699,
+            0,
+            134000,
+            0,
+            0,
+            0,
+            0,
+            59406,
+            194),
+ 'snipercmd': ['bash',
+               '-c',
+               '/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/snipersim/lib/sniper '
+               '-c '
+               '/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/snipersim/config/base.cfg '
+               '--general/total_cores=2 '
+               '--general/output_dir=/mnt/c/Users/Bea/Desktop/proiectBea/workspace/simresults '
+               '--config=/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/snipersim/config/nehalem.cfg '
+               '--config=/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/snipersim/config/gainestown.cfg '
+               '-g --general/magic=true -g '
+               '--traceinput/stop_with_first_app=true -g '
+               '--traceinput/restart_apps=false -g --hooks/numscripts=1 -g '
+               '--hooks/script0name=/mnt/c/Users/Bea/Desktop/proiectBea/workspace/simresults/sim.scripts.py '
+               '-g --hooks/script0args= -g '
+               '--traceinput/stop_with_first_app=false -g '
+               '--traceinput/enabled=true -g '
+               '--traceinput/emulate_syscalls=true -g --traceinput/num_apps=1 '
+               '-g --traceinput/trace_prefix=/tmp/tmp5er3h82i/run_benchmarks'],
+ 't_elapsed': 17.734365940093994,
+ 't_start': 1736960643.13782,
+ 'tracecmds': [['/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/snipersim/record-trace',
+                '-o',
+                '/tmp/tmp5er3h82i/run_benchmarks',
+                '-v',
+                '--roi',
+                '-e',
+                '1',
+                '-s',
+                '0',
+                '-r',
+                '1',
+                '--follow',
+                '--routine-tracing',
+                '--',
+                '/mnt/c/Users/Bea/Desktop/proiectBea/workspace/latest/Splash-4/Splash-4/lu-contiguous_blocks/LU-CONT',
+                '-n32',
+                '-p2',
+                '-b8']],
+ 'user': 'beatrice',
+ 'vmem': 760381440}
